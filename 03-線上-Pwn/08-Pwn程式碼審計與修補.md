@@ -160,3 +160,13 @@ gcc -Wall -Wextra -Werror=format-security \
 
 - 強調 「**patch 後重新編譯與 checksec 一致**」 否則 patch 統計Metaclass生活
 - patch 寫完必須動態測（3 分鐘內重現原 exploit 未成功、patched binary 服緣線）。
+
+---
+
+## 附錄 · 防禦檢查清單（平行材料）
+
+修補 demo 結束後，請用一頁紙勾選加固／降權／驗證補丁項（調試僅用於確認修補有效，**非**開發利用）：
+
+→ [05-模板/Pwn08-防禦檢查清單.md](../05-模板/Pwn08-防禦檢查清單.md)
+
+課程邊界見倉庫根目錄 [COURSE_BOUNDARY.md](../COURSE_BOUNDARY.md)。
